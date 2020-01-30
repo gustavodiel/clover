@@ -1,0 +1,60 @@
+
+Clover EFI installer log - Mon Jan 27 21:24:17 -03 2020
+Installer version: v2.5k r5103 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         499.9 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +499.9 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume macOS - Data            408.3 GB   disk1s1
+   2:                APFS Volume Preboot                 82.0 MB    disk1s2
+   3:                APFS Volume Recovery                528.5 MB   disk1s3
+   4:                APFS Volume VM                      2.1 GB     disk1s4
+   5:                APFS Volume macOS                   11.1 GB    disk1s5
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *240.1 GB   disk2
+   1:                        EFI                         314.6 MB   disk2s1
+   2:           Linux Filesystem                         221.4 GB   disk2s2
+   3:                 Linux Swap                         18.3 GB    disk2s3
+
+/dev/disk3 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk3
+   1:         Microsoft Reserved                         16.8 MB    disk3s1
+   2:       Microsoft Basic Data                         1.0 TB     disk3s2
+
+/dev/disk4 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk4
+   1:                        EFI EFI                     209.7 MB   disk4s1
+   2:       Microsoft Basic Data Dados Mac               1000.0 GB  disk4s2
+
+/dev/disk5 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *2.0 TB     disk5
+   1:               Windows_NTFS Dados Large             2.0 TB     disk5s1
+
+Target volume /Volumes/macOS on disk1 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/macOS/EFIROOTDIR/boot  to /Volumes/macOS/EFI-Backups/r5099/2020-01-27-21h24/boot
+Backing up /Volumes/macOS/EFIROOTDIR/EFI folder to /Volumes/macOS/EFI-Backups/r5099/2020-01-27-21h24/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 2 - Written boot6 (x64) to /Volumes/ESP/boot
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
