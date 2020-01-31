@@ -11,3 +11,7 @@ Specs:
 - **GPU Slot 2**: RX 570
 - **SSD**: Samsumg 970 EVO 500GB
 
+
+## My custom theme
+
+![alt text](.images/boot.jpg "Logo Title Text 1")
